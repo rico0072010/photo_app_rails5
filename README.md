@@ -1,24 +1,34 @@
-# README
+# Photo subscription application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the application for
+[*The Complete Ruby on Rails tutorial*](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/).
 
-Things you may want to cover:
+## Information
 
-* Ruby version
+I build this app primarily to learn how to integrate payments in my Rails app, precisely I used stripe api, also I used devise for registraion.
+I received a solid understanding on how to make a purchases in web application and this knowledge will be extremely useful for me.
 
-* System dependencies
+Checkout the app on heroku [Photo app](https://photo-app-rails5.herokuapp.com/)
 
-* Configuration
+## Getting started
 
-* Database creation
+To get started with the app, clone the repo and then install the needed gems:
 
-* Database initialization
+```
+$ bundle install --without production
+```
 
-* How to run the test suite
+Next, migrate the database:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails db:migrate
+```
 
-* Deployment instructions
+Then 
 
-* ...
+```
+$ rails server
+```
+
+For more information, see the
+[*Complete Ruby on Rails Tutorial*](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/).
